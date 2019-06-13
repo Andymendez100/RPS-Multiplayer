@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="jumbotron">
+    <div class="jumbotron text-center">
         <div class="container">
             <h1>Rock-Paper-Scissors!</h1>
         </div>
@@ -21,14 +21,14 @@
         <div class="formPanel">
             <form id="name-form">
                 <input type="text" id="name-input" placeholder="Your Name">
-                <input id="add-name" type="submit" value="Start">
+                <button id="add-name" type="submit">Start</button>
             </form>
         </div>
         <div class="panel panel-default">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="panel panel-default playerPanel" id="playerPanel1">
-                        <div class="panel-heading panelName" style="min-height: 10;">
+                        <div class="panel-heading panelName">
                             <h3 class="panel-title text-center" id="playerOneName"></h3>
                         </div>
 
@@ -82,18 +82,18 @@
         <div class="row">
             <div class="col-sm-12">
                 <div id="chatDisplay"></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="chatInput">
-                    <div class="chatLabel">Type Your Message!</div>
 
-                    <div class="chatPanel">
-                        <form id="chat-form">
-                            <textarea type="text" id="chat-input"></textarea>
-                            <input id="chat-send" type="submit" value="Send">
-                        </form>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="chatInput">
+                        <div class="chatLabel">Type Your Message!</div>
+                        <div class="chatPanel">
+                            <form id="chat-form">
+                                <input id="chat-input"></input>
+                                <button id="chat-send" type="submit">Send</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

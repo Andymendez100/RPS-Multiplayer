@@ -70,7 +70,7 @@ $(document).ready(function(){
     
         // If both players are now present, it's player1's turn
         if (player1 && player2) {
-            $("#playerPanel1").addClass("playerPanelTurn");
+            // $("#playerPanel1").addClass("playerPanelTurn");
     
             $("#waitingNotice").html("Waiting on " + player1Name + " to choose...");
         }
@@ -136,11 +136,7 @@ $(document).ready(function(){
     
             // Update the display if both players are in the game
             if (player1 && player2) {
-                $("#p2Rock").removeClass("playerSelectedOpt");
-                $("#p2Paper").removeClass("playerSelectedOpt");
-                $("#p2Scissors").removeClass("playerSelectedOpt");
-                $("#playerPanel1").removeClass("playerPanelTurn");
-                $("#playerPanel2").addClass("playerPanelTurn");
+
                 $("#waitingNotice").html("Waiting on " + player2Name + " to choose...");
             }
         }
