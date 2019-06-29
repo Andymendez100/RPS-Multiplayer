@@ -12,18 +12,22 @@
 </head>
 
 <body>
+    <!-- jumbotron -->
     <div class="jumbotron text-center">
         <div class="container">
             <h1>Rock-Paper-Scissors!</h1>
         </div>
     </div>
+
+    <!-- input for players name -->
     <div class="container">
-        <div class="formPanel">
+        <div class="formPanel ">
             <form id="name-form">
                 <input type="text" id="name-input" placeholder="Your Name">
                 <button id="add-name" type="submit">Start</button>
             </form>
         </div>
+        <!-- Player 1 box -->
         <div class="panel panel-default">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
@@ -48,12 +52,15 @@
                         </div>
                     </div>
                 </div>
+                <!-- Results of game -->
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="panel panel-default gamePanel">
                         <h3 class="panel-title text-center" id="waitingNotice"></h3>
                         <h3 class="panel-title text-center" id="roundOutcome">Rock-Paper-Scissors</h3>
                     </div>
                 </div>
+
+                <!-- Player 2 box-->
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="panel panel-default playerPanel" id="playerPanel2">
                         <div class="panel-heading panelName">
@@ -79,11 +86,13 @@
                 </div>
             </div>
         </div>
+        <!-- Chat -->
         <div class="row">
             <div class="col-sm-12">
                 <div id="chatDisplay"></div>
 
             </div>
+            <!-- Chat for user input-->
             <div class="row">
                 <div class="col-sm-12">
                     <div class="chatInput">

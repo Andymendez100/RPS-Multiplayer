@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+}
+.jumbotron{
+    background-color: #A8FFFF;
+}
+
+
+#name-input {
+    width: 200px;
+    height: 30px;
+    color: #b4c7df;
+    text-align: center;
+    margin-left: 33%;
+    border-radius: 10px;
+    background-color: #cdd9ea;
+  }
+
+  .playerPanel .panelOption {
+	height: 50px;
+	background-color:#A8FFFF;   
+	font-size: 1.5em;
+	color: #084596;
+}
+
+.playerPanel .panelOption:hover {
+	background-color: #659595;
+}
+.playerPanel .panelOption:active {
+    background-color: #DDC677;
+  }
+
+  .playerPanel .panelStats {
+	height: 60px;
+	background-color: #D83E25;
+	font-size: 1.5em;
+    color: black;
+  }
+  .gamePanel h3 {
+	font-size: 2.5em;
+	color: black;
+	margin: 1.25em 0em 0em 0em;
+}
+.panelName {
+	font-size: 1.5em;
+	color: #efad0d;
+	font-style: italic;
+	font-weight: normal;
+}
+
+#chatDisplay {
+	height: 150px;
+	overflow: auto;
+	text-align: left;
+  	border-radius: 10px;
+  	background-color: #cdd9ea;
+	font-size: 1em;
+
+    margin-top: 5%;
+}
+
+.chatInput {
+    height: 150px;
+    border-radius: 10px;
+    background-color: black;
+	
+}
+#chat-input {
+	width: 70%;
+	height: 90px;
+	margin-left: 15px;
+	margin-right: 5px;
+	color: black;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #cdd9ea;
+}
+
+#chat-form{
+   width:200%
+}
